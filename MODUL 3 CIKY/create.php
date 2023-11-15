@@ -55,9 +55,6 @@ $conn->close();
 // (7) Tutup koneksi ke database setelah selesai menggunakan database
 ?>
 <?php
-
-
-// cek apakah tombol submit sudah ditekan atau belum
 if(isset($_POST["submit"])) {
     // cek apakah data berhasil di tambahkan atau tidak
     if (tambah($_POST) > 0) {

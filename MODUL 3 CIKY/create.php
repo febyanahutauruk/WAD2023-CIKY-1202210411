@@ -56,7 +56,6 @@ $conn->close();
 ?>
 <?php
 if(isset($_POST["submit"])) {
-    // cek apakah data berhasil di tambahkan atau tidak
     if (tambah($_POST) > 0) {
         echo "
             <script>
